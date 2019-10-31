@@ -97,7 +97,7 @@
     padding: 0  0 70px 0;
     cursor: pointer;
     transition: 0.2s;
-    box-shadow: 0 11px 20px #5e42a6;
+    box-shadow: -9px 9px 10px 0px #48606b;
 }
 @media screen and (max-width: 1280px) {
     .card {
