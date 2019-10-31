@@ -1,0 +1,174 @@
+#intro{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+}
+
+#one{
+    background-image: url(images/one.jpg);
+    background-size: cover;
+}
+
+#two{
+    background-image: url(images/two.jpg);
+    background-size: cover;
+}
+
+#blog{
+    background-image: url(images/three.jpg);
+    background-size: cover;
+}
+
+#contact{
+    background-image: url(images/contact.jpg);
+    background-size: cover;
+}
+.white{
+    color: white;
+}
+
+.maj{
+    text-transform: uppercase;
+}
+
+.half{
+    width: 50%;
+}
+
+.spacex{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#main{
+    margin-bottom: 120px;
+}
+
+/*    Page Blog    */
+
+.blog_page p:first-of-type{
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+    opacity: 50%;
+    text-transform: uppercase ;
+    margin: 0;
+}
+.blog_page h1{
+    text-align: center;
+    font-size: 2.4em;
+}
+.blog_page>.row{
+    margin: 40px;
+}
+.blog_page ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.blog_page ul>li, .blog_page form input{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+.blog_page form ul{
+    padding: 0;
+    margin: 0;
+}
+.blog_page form input[type=submit] {
+    height: calc(2.75em + 2px);
+    line-height: 2.75em;
+    letter-spacing: 2px;
+}
+
+.blog_page ul>li>a.button{
+    padding: 0 2.75em;
+}
+.card{
+    position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33% - 25px);
+    padding: 0  0 70px 0;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 11px 20px #5e42a6;
+}
+@media screen and (max-width: 1280px) {
+    .card {
+        width: calc(50% - 25px);
+    }
+}
+@media screen and (max-width: 640px) {
+    .card {
+        width: calc(100% - 25px);
+    }
+}
+.card:hover{
+    transition: 0.2s;
+    transform: translateY(-10px);
+}
+.card h2{
+    color: black;
+    padding: 0 5px;
+    margin: 0;
+}
+a.card:hover p.card-text{
+    color: black;
+}
+.card p.card-text{
+    text-transform: unset;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.card>img{
+    padding: 10px 10px 0 10px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.card>.card-body>.button{
+    color: black!important;
+    border: 1px solid black!important;
+    margin: 18px 0 0 5px;
+    font-size: 12px;
+    line-height: 3.75em;
+    height: calc(3.75em - 2px);
+    padding: 0px 22px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transition: 0.5s;
+
+}
+.card>.card-body>.button:hover{
+    color: white!important;
+    border: 1px solid white!important;
+    background-color: black;
+    transition: 0.5s;
+
+}
+.blog_page .card>p{
+    padding: 20px;
+}
+
+/* Graph correction */
+
+.h-value, .percentage-value.visible{
+    margin: 0;
+}
+.valueX{
+    color: unset;
+    font-weight: unset;
+    line-height: unset;
+}
