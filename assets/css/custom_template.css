@@ -22,24 +22,29 @@
     background-image: url(images/contact.jpg);
     background-size: cover;
 }
-.white{
+.white,.bold{
     color: white;
 }
 
 .maj{
     text-transform: uppercase;
 }
-
+.bold{
+    font-weight: bold ;
+}
 .half{
     width: 50%;
 }
-
+.float-left{
+    float: left;
+    padding: 1em;
+}
 .spacex{
     margin-top: 2em;
     margin-bottom: 2em;
 }
 #main{
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
 
 /*    Page Blog    */
