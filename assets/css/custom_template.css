@@ -206,3 +206,23 @@ p.category-tag, a.category-tag{
 a.category-tag{
     font-size: 18px!important;
 }
+
+p>img{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+}
+.chapo{
+    font-size: 21px;
+    font-weight: bold;
+}
+.image.small{
+    display: inline-block;
+    margin: 0 0 2em 0;
+    text-align: center;
+    width: 100%;
+}
+.image.small>img{
+    width: 50%;
+    display: inline-block;
+}
