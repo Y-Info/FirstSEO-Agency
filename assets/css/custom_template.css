@@ -196,10 +196,33 @@ hr{
     margin: 0;
     border-bottom: 1px solid white;
 }
-p.category-tag{
+p.category-tag, a.category-tag{
     text-align: left!important;
     font-size: 12px!important;
     color: grey!important;
     padding: 0!important;
     margin: 0!important;
+}
+a.category-tag{
+    font-size: 18px!important;
+}
+
+p>img{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+}
+.chapo{
+    font-size: 21px;
+    font-weight: bold;
+}
+.image.small{
+    display: inline-block;
+    margin: 0 0 2em 0;
+    text-align: center;
+    width: 100%;
+}
+.image.small>img{
+    width: 50%;
+    display: inline-block;
 }
