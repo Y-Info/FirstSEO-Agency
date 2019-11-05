@@ -49,7 +49,7 @@
 
 /*    Page Blog    */
 
-.blog_page p:first-of-type{
+.ref_page>.row>p:first-of-type, .blog_page p:first-of-type{
     text-align: center;
     font-size: 20px;
     vertical-align: top;
@@ -57,7 +57,7 @@
     text-transform: uppercase ;
     margin: 0;
 }
-.blog_page h1{
+.blog_page h1, .ref_page h1{
     text-align: center;
     font-size: 2.4em;
 }
@@ -225,4 +225,73 @@ p>img{
 .image.small>img{
     width: 50%;
     display: inline-block;
+}
+
+.card_ref{
+    padding: 15px;
+    border: 1px solid white;
+}
+.card_ref>img{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.card_ref>h2{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 18px 15px;
+    font-size: 17px;
+}
+.card_ref>p.hide_text{
+    display: block;
+    max-height: 150px;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+}
+p.savoir_plus{
+    margin: 0;
+    text-align: right;
+    padding: 0 30px;
+    font-size: 14px;
+    position: relative;
+}
+p.savoir_plus:after{
+    content: url(../../images/right-arrow.svg);
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 4px;
+    right: 3px;
+    transition: all 0.1s ease;
+}
+p.savoir_plus:hover:after{
+    transform: translateX(5px);
+}
+.hider{
+    display: block;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 54%, rgba(6,17,22,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 54%,rgba(6,17,22,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 54%,rgba(6,17,22,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#061116',GradientType=0 ); /* IE6-9 */
+
+}
+.col-md-3-custom{
+    flex: 0 0 calc(25% - 20px);
+    margin: 0 10px;
+    position: relative;
+}
+@media (max-width: 768px){
+  .col-sm-12-custom{
+    flex: 0 0 calc(100% - 20px);
+    margin: 0 10px;
+    position: relative;
+}  
 }
