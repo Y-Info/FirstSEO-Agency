@@ -236,6 +236,7 @@ p>img{
     height: auto;
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 50%;
 }
 .card_ref>h2{
     display: inline-block;
@@ -267,7 +268,7 @@ p.savoir_plus:after{
     right: 3px;
     transition: all 0.1s ease;
 }
-p.savoir_plus:hover:after{
+.card_ref:hover p.savoir_plus:after{
     transform: translateX(5px);
 }
 .hider{
@@ -294,4 +295,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     margin: 0 10px;
     position: relative;
 }  
+}
+.chart{
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.references_page article{
+    margin: 0 100px;
+}
+.references_page article>h1{
+    border-bottom: 2px solid #c605d0;
+}
+.references_page article>p{
+    font-size: 15px;
 }
