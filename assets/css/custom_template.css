@@ -316,3 +316,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .references_page article>p{
     font-size: 15px;
 }
+.has_sub_menu{
+    display: inline-block;
+    position: relative;
+}
+.has_sub_menu{
+    height: 30px;
+    vertical-align: inherit;
+    transition: all 0.1s ease;
+    margin-right: 15px;
+}
+.has_sub_menu:after{
+    content: url(../../images/down.svg);
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2px;
+    right: -15px;
+    transition: all 0.1s ease;
+}
+.has_sub_menu:hover{
+    height: 50px;
+    vertical-align: baseline;
+    transition: all 0.1s ease;
+}
+
+.has_sub_menu>ul.sub_menu{
+    display: none;
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    color: black;
+    margin: 51px 0;
+    width: 190%;
+    left: -45%;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.has_sub_menu:hover>ul.sub_menu, ul.sub_menu:hover{
+    display: block;
+}
+ul.sub_menu > li a{
+    color: grey!important;
+}
+ul.sub_menu > li a:hover{
+    color: black!important;
+}
