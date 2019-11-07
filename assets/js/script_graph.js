@@ -1,25 +1,8 @@
-/*
-I loved Virgil's Dribble shot and decided to remake
-it with some SVG animations :) I didn't really want
-to recreate the curvy line since I believe straight
-lines are more accurate. Sorry Virgil, I might make
-them curvy one day :)! With a bit of time on my 
-hands I could make it even more detailed.
-I hope you like it and post some feedback on how to
-make this better :)!
-
-Don't forget to check out the original at
-https://goo.gl/0aKiS0
-
-Kudos Virgil!*/
 
 var chart_h = 40;
 var chart_w = 80;
 var stepX = 77 / 14;
 
-var chart_1_y = [
-  15, 25, 40, 30, 45, 40, 35, 55, 37, 50, 60, 45,70, 78
-];
 var chart_2_y = [
   20, 35, 35, 40, 55, 34, 54, 50, 60, 64, 70, 69, 90, 88
 ];
@@ -49,7 +32,6 @@ function drawGrid(graph) {
     };
 }
 drawGrid('#chart-2');
-drawGrid('#chart-1');
 
 function drawLineGraph(graph, points, container, id) {
 
@@ -229,42 +211,7 @@ function drawLineGraph(graph, points, container, id) {
     }
     drawPolygon(segments,id);*/
 }
-function drawCircle(container,id,progress,parent){
-  var paper = Snap(container);
-  var prog = paper.path("M5,50 A45,45,0 1 1 95,50 A45,45,0 1 1 5,50");
-  var lineL = prog.getTotalLength();
-  var oneUnit = lineL/100;
-  var toOffset = lineL - oneUnit * progress;
-  var myID = 'circle-graph-'+id;
-  prog.attr({
-    'stroke-dashoffset':lineL,
-    'stroke-dasharray':lineL,
-    'id':myID
-  });
-  
-  var animTime = 1300/*progress / 100*/
-  
-  prog.animate({
-    'stroke-dashoffset':toOffset
-  },animTime,mina.easein);
-  
-  function countCircle(animtime,parent,progress){
-    var textContainer = $(parent).find('.circle-percentage');
-    var i = 0;
-    var time = 1300;
-    var intervalTime = Math.abs(time / progress);
-    var timerID = setInterval(function () {
-      i++;
-      textContainer.text(i+"%");
-      if (i === progress) clearInterval(timerID);
-    }, intervalTime);           
-  }
-  countCircle(animTime,parent,progress);
-}
 
 $(window).on('load',function(){
-    drawCircle('#chart-3',1,77,'#circle-1');
-    drawCircle('#chart-4',2,53,'#circle-2');
-    drawLineGraph('#chart-1', chart_1_y, '#graph-1-container', 1);
     drawLineGraph('#chart-2', chart_2_y, '#graph-2-container', 2);
 });
