@@ -366,3 +366,32 @@ ul.sub_menu > li a{
 ul.sub_menu > li a:hover{
     color: black!important;
 }
+
+@media (max-width: 768px){
+    #header > nav > ul > li, #header > nav > ul > li:first-child{
+        margin-left: 1.5em;
+        display: inline-block;
+        width: 90%;
+        height: auto;
+    }
+    .has_sub_menu>ul.sub_menu {
+        display: none;
+        list-style: none;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        color: black;
+        margin: 51px 0;
+        width: 100%;
+        left: 0;
+        z-index: 1;
+        padding: 0 10px;
+        border-radius: 5px;
+        font-size: 18px
+    }
+    ul.sub_menu>li>a{
+        height: 2em!important;
+        line-height: 2em!important;
+    }
+}
