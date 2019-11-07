@@ -366,7 +366,6 @@ ul.sub_menu > li a{
 ul.sub_menu > li a:hover{
     color: black!important;
 }
-<<<<<<< HEAD
 .hamburger{
     display: none;
 }
@@ -379,14 +378,13 @@ ul.sub_menu > li a:hover{
         margin-left: 1.5em;
         display: inline-block;
         width: 100%;
-=======
+    }
 
 @media (max-width: 768px){
     #header > nav > ul > li, #header > nav > ul > li:first-child{
         margin-left: 1.5em;
         display: inline-block;
         width: 90%;
->>>>>>> master
         height: auto;
     }
     .has_sub_menu>ul.sub_menu {
@@ -397,13 +395,8 @@ ul.sub_menu > li a:hover{
         top: 0;
         background-color: white;
         color: black;
-<<<<<<< HEAD
         margin: 5% 0;
         width: 90%;
-=======
-        margin: 51px 0;
-        width: 100%;
->>>>>>> master
         left: 0;
         z-index: 1;
         padding: 0 10px;
@@ -413,8 +406,6 @@ ul.sub_menu > li a:hover{
     ul.sub_menu>li>a{
         height: 2em!important;
         line-height: 2em!important;
-<<<<<<< HEAD
-
     }
     nav.active ul>li{
        text-align: left;
@@ -481,8 +472,4 @@ ul.sub_menu > li a:hover{
             line-height: 3em;
         }
     }
-
-=======
-    }
->>>>>>> master
 }
