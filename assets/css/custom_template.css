@@ -445,6 +445,21 @@ ul.sub_menu > li a:hover{
             height: 24px!important;
             padding: 20px 5px!important;
         }
+    li.has_sub_menu:after{
+        display: none;
+    }
+    li.has_sub_menu>a:first-of-type{
+        position: relative;
+    }
+        li.has_sub_menu>a:after{
+            content: url(../../images/down.svg);
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 40px;
+            right: -30px;
+            transition: all 0.1s ease;
+        }
     @media screen and (max-width: 480px){
         #header > nav > ul > li a {
             height: 3em;
