@@ -16,6 +16,11 @@
 <!-- Header -->
 <header id="header">
     <a href="../../index.html" class="title">FirstSEO</a>
+    <div class="hamburger hamburger--minus">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </div>
     <nav>
         <ul>
             <li><a href="../../index.html">Accueil</a></li>
@@ -122,4 +127,10 @@
 <script src="../../assets/js/main.js"></script>
 
 </body>
+<script>
+    $(".hamburger").click(function(){
+        $("nav").toggleClass("active");
+        $(".hamburger").toggleClass("is-active");
+    });
+</script>
 </html>
