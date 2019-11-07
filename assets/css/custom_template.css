@@ -1279,6 +1279,9 @@ ul.sub_menu > li a:hover{
     }
 
     @media (max-width: 768px) {
+        .half, .image.small>img{
+            width: 100%;
+        }
         #header > nav > ul > li, #header > nav > ul > li:first-child {
             margin-left: 1.5em;
             display: inline-block;
