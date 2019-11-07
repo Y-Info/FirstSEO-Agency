@@ -1,6 +1,13 @@
 {
-  "name": "firstseo/site",
-  "type": "project",
-  "version": "1.0.1" ,
-  "description": "school seo project"
+    "name": "firstseo/site",
+    "description": "School seo project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brice MICHALSKI",
+            "email": "brice.michalski@icloud.com"
+        }
+    ],
+    "require": {}
 }
