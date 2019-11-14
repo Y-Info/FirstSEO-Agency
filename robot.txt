@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /images/*.png$
+Disallow: /images/*.svg$
+Disallow: /index.php
+# Page en cours de travaux a ne pas reference
+Disallow: references/example.html
+Disallow: pages/try.html
+Sitemap: https://firstseo.herokuapp.com/sitemap.xml

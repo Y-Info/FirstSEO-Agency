@@ -1,67 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://firstseo.herokuapp.com/index.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/pages/prestations.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/actu/google-bert-la-mise-%C3%A0-jour-majeur-du-moteurs-de-recherches.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/tips/5-conseils-pour-une-page-produit-efficace.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/pages/references.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/tips/index.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/actu/index.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/masterclass/index.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/blog/masterclass/le-referencement-naturel-les-fondamentaux.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://firstseo.herokuapp.com/references/example.html</loc>
-  <lastmod>2019-11-07T09:49:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+  <url>
+    <loc>https://firstseo.herokuapp.com/index.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/index-bordeaux.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/index-lille.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/index-lyon.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/index-paris.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/pages/seo.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/pages/sea.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/pages/smo.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/pages/netlinking.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/actu/google-bert-la-mise-%C3%A0-jour-majeur-du-moteurs-de-recherches.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/tips/5-conseils-pour-une-page-produit-efficace.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/masterclass/le-referencement-naturel-les-fondamentaux.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/pages/references.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/tips/index.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/actu/index.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/blog/masterclass/index.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://firstseo.herokuapp.com/references/example.html</loc>
+    <lastmod>2019-11-14T08:56:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
 </urlset>
